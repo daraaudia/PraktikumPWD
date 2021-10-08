@@ -1,5 +1,5 @@
-<?php
-    $filecounter = "counter.txt";
+<?php // tag pembuka php
+    $filecounter = "counter.txt"; // untuk menyimpan file angka pengunjung
     $fl = fopen($filecounter,"r+");
     $hit = fread($fl,filesize($filecounter));
 
@@ -11,11 +11,11 @@
     echo("</b></font>");
     echo("</td>");
     echo("</tr></table>");
-    fclose($fl);
+    fclose($fl); // tag untuk menutup table
 
-    $fl=fopen($filecounter,"w+");
+    $fl=fopen($filecounter,"w+"); // untuk membuka file
     $hit = $hit + 1;
     fwrite($fl, $hit , strlen($hit));
-    fclose($fl);
+    fclose($fl); // untuk menutup file pengunjung
 
-?>
+?> // tag penutup php

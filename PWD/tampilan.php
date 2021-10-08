@@ -1,4 +1,4 @@
-<html>
+<html> // tag pembuka html
   <head>
     <title>My Guest Book</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
@@ -10,7 +10,7 @@
       </strong>
     </div>
     <form name="form1" method="post" action="proses.php">
-      <table width="58%" border="0" align="center">
+      <table width="58%" border="0" align="center"> // tag membuat table
         <tr>
           <td>Nama Lengkap</td>
           <td><input type="text" name="nama" id="nama" /></td>
@@ -47,7 +47,7 @@
     </form>
     <div align="center">
       <strong>
-        <a href="lihat.php">::Lihat Buku Tamu::</a>
+        <a href="lihat.php">::Lihat Buku Tamu::</a> // terdapat link yang menuju ke halaman lihat buku tamu
       </strong>
     </div>
   </body>
